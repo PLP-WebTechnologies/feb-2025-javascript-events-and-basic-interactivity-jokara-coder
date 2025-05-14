@@ -1,0 +1,66 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:bisque;
+    margin:0;
+    padding: 20px;
+
+}
+
+button {
+    background-color: #4CAF50;
+    border:none;
+    color:white;
+    padding: 10px 20px;
+    text-align:justify;
+    text-decoration: dashed;
+
+}
+
+button:hover {
+    background-color:darkblue;
+    color:white;
+    cursor:pointer;
+
+}
+
+.hover-box {
+    background-color:lightgrey;
+    border:pink;
+    margin: 20px;
+
+}
+
+.tab-content {
+    display:none;
+    padding: 20px:
+    background-color: grey;
+
+}
+
+.slideshow {
+    width: 100%;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+
+}
+
+input {
+    display:block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+
+}
+
+.animate-btn {
+    animation:alternate;
+
+}
+
+@keyframes alternate {
+    0% {background-color:lightcoral;}
+    50% { transform: translateY(-10px);}
+    100% {background-color:lightgrey;}
+    
+}

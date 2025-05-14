@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Page</title>
+    <style>
+        main {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="page-title">Welcome to My Page</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="description">This text will change dynamically when you click a button.</p>
+        </section>
+
+        <section>
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="changeStyle()">Change Style</button>
+            <button onclick="toggleBox()">Add/Remove Box</button>
+        </section>
+
+        <section id="box-container">
+            <!-- Box will appear here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
